@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"SemVersion": "0.1.0",
+	"GameVersion": ">=491125",
+	"FriendlyName": "Blueprint Fixes",
+	"Description": "Client-only fixes for vanilla blueprint bugs. Stops the Blueprint Designer from loading blueprints you pick in the build gun's menu.",
+	"Category": "Modding",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"RequiredOnRemote": false,
+	"Modules": [
+		{
+			"Name": "BlueprintFixes",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault",
+			"TargetDenyList": [ "Editor" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.0"
+		}
+	]
+}

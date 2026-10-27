@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "0.2.0",
+	"SemVersion": "0.2.0",
+	"GameVersion": ">=491125",
+	"FriendlyName": "Designer Load Tracer",
+	"Description": "Client-only diagnostic: logs native and Blueprint call stacks whenever something asks a Blueprint Designer to load, clear or change its blueprint.",
+	"Category": "Modding",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"RequiredOnRemote": false,
+	"Modules": [
+		{
+			"Name": "DesignerLoadTracer",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault",
+			"TargetDenyList": [ "Editor" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.0"
+		}
+	]
+}

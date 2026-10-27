@@ -1,0 +1,6 @@
+# Unreal build output, in case a mod folder is built in place or copied back from an SML project
+Binaries/
+Intermediate/
+Saved/
+*.zip
+*.pdb
