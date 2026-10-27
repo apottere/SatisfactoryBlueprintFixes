@@ -2,7 +2,9 @@
 
 **Status:** root cause found; client-side fix in [`mods/BlueprintFixes`](../mods/BlueprintFixes), verified in game
 **Game version investigated:** 1.x, build `++FactoryGame+rel-main-anniversary-2026-CL-513885`, client on a dedicated server
-**Existing report:** [Blueprint Designer Replaces contents with Blueprint selected from the build menu](https://questions.satisfactorygame.com/post/637c4eb6ca608e0803526288) (open since Update 7, 30+ duplicates)
+**Existing reports:**
+- [Blueprint Designer Replaces contents with Blueprint selected from the build menu](https://questions.satisfactorygame.com/post/637c4eb6ca608e0803526288) (open since Update 7, 31 duplicates)
+- [Blue print always building on designer when grabbed in build menu](https://questions.satisfactorygame.com/post/649742f087a1e63b6cee6ad0) (open since Early Access, not marked as a duplicate)
 
 ## Symptom
 
